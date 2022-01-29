@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <main class="ctn">
+            <header class="ctn-title">
+                <h1>Codificador de Mensagens</h1>
+            </header>
+
+            <body class="ctn-body">
+                <section class="ctn-textbox">
+                    <h2>Mensagem</h2>
+                    <textarea placeholder="Digite ou cole aqui o seu texto!" id="textArea" name="story" rows="5"
+                        cols="33"></textarea>
+                    <div class="div-button">
+                        <button id="btn-crip">Criptografar</button><button id="btn-decrip">Decriptografar</button>
+                    </div>
+
+                </section>
+                <section class="ctn-textbox">
+                    <h2 id="title-msg">Mensagem Criptografada</h2>
+                    <textarea id="msgCriptografada" name="story" rows="5" cols="33"></textarea>
+                    <button id="btn-copiar">Copiar</button>
+                </section>
+                </section>
+            </body>
+        </main>
+    </div>
+    <footer>
+        Desenvolvido por jwcamelo durante o programa Alura Oracle Next Education
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+body{
+    background-image: url("/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctn{
+    font-family:'Ubuntu', sans-serif;
+    box-shadow: 10px 5px 5px #17242B;
+    background-color: #d0d1d2bb;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: space-around;
+    padding: 20px;
+}
+.ctn-title{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.ctn-textbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+button{
+    margin-top: 20px;
+    width: 45%;
+    padding: 5px;
+    box-shadow: 5px 2px 2px #22353C;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.div-button{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+#btn-copiar{
+    align-self: center;
+}
+textarea{
+    text-align: left;
+    box-shadow: 5px 2px 2px #22353C;
+}
+footer{
+    color: #ffffff;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+h2{
+    align-self: center;
+}
