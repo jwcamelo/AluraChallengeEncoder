@@ -1,70 +1,89 @@
-body{
+body {
     background-image: url("https://cdn.pixabay.com/photo/2016/03/25/01/21/abstract-1278017_960_720.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
+.container {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.ctn{
-    font-family:'Ubuntu', sans-serif;
+.ctn {
+    font-family: 'Ubuntu', sans-serif;
     box-shadow: 10px 5px 5px #17242B;
     background-color: #d0d1d2bb;
     width: 750px;
     display: flex;
     flex-wrap: wrap;
-    margin:auto;
+    margin: auto;
     justify-content: space-around;
     padding: 20px;
 }
-.ctn-title{
+
+.ctn-title {
     width: 100%;
     text-align: center;
     border: 1px solid black;
 }
-.ctn-textbox{
+
+.ctn-textbox {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
 }
-button{
+
+button {
     margin-top: 20px;
     width: 45%;
     padding: 5px;
     box-shadow: 5px 2px 2px #22353C;
     text-transform: uppercase;
     font-weight: 900;
-    font-family: 'Ubuntu', sans-serif;;
+    font-family: 'Ubuntu', sans-serif;
+    ;
 }
-.div-button{
+
+.div-button {
     display: flex;
     text-align: center;
     justify-content: space-around;
 }
-#btn-copiar{
+
+#btn-copiar {
     align-self: center;
 }
-textarea{
+
+textarea {
     text-align: left;
     box-shadow: 5px 2px 2px #22353C;
 }
-footer{
-    color: #ffffff;
+
+footer {
+    background-color: #ffffff6b;
+    color: #000;
     text-align: center;
+    width: 100%;
+    padding: 5px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
-button:hover{
+a {
+    color: #000;
+}
+
+button:hover {
     cursor: pointer;
 }
-h2{
+
+h2 {
     align-self: center;
 }
